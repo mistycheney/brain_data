@@ -9,4 +9,4 @@ Sample data for brain registration
       * \<atlas_id\>_atlas: contains all annotated images
       * \<atlas_id\>_warp: contains images that are warped into alignment, using transforms obtained from web API.
       * \<atlas_id\>.p: the pickle file containing indexing information about this atlas
- * **Section**:       subject images
+ * **Section**:       subject images. Each folder is named with \<subject_id\> and contains segmented raw section images in the subject stack.
